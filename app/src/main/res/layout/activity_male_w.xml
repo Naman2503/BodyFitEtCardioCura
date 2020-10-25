@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_male_w"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.naman.bodyfitetcardiocura.MaleW"
+    android:background="@drawable/workoutd">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORKOUT"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="#000000" />
+
+            <Button
+                android:text="Day1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="57dp"
+                android:layout_below="@+id/mw"
+                android:background="#9ca1a1"
+                android:id="@+id/mw1"
+                android:textSize="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Day2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw2"
+                android:textSize="25dp"
+                android:layout_below="@+id/mw1"
+                android:layout_alignStart="@+id/mw1"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:id="@+id/mw3"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/mw2"
+                android:layout_alignStart="@+id/mw2"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw4"
+                android:textSize="25dp"
+                android:layout_below="@+id/mw3"
+                android:layout_alignStart="@+id/mw3"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="#9ca1a1"
+                android:id="@+id/mw5"
+                android:textSize="25dp"
+                android:layout_below="@+id/mw4"
+                android:layout_alignStart="@+id/mw4"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:id="@+id/mw6"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/mw5"
+                android:layout_alignStart="@+id/mw5"
+                android:layout_alignParentEnd="true" />
+
+
+            <Button
+                android:text="Day7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/mw6"
+                android:layout_alignStart="@+id/mw6"
+                android:background="#9ca1a1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw7"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw7"
+                android:layout_alignStart="@+id/mw7"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw8"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day9"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/mw8"
+                android:layout_alignStart="@+id/mw8"
+                android:background="#9ca1a1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw9"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day10"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw9"
+                android:layout_alignStart="@+id/mw9"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw10"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day11"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw10"
+                android:layout_alignStart="@+id/mw10"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw11"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day12"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw11"
+                android:layout_alignStart="@+id/mw11"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw12"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day13"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw12"
+                android:layout_alignStart="@+id/mw12"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw13"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day14"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw13"
+                android:layout_alignStart="@+id/mw13"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw14"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day15"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw14"
+                android:layout_alignStart="@+id/mw14"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw15"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day16"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw15"
+                android:layout_alignStart="@+id/mw15"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw16"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day17"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw16"
+                android:layout_alignStart="@+id/mw16"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw17"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day18"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw17"
+                android:layout_alignStart="@+id/mw17"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw18"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day19"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw18"
+                android:layout_alignStart="@+id/mw18"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw19"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day20"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw19"
+                android:layout_alignStart="@+id/mw19"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw20"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day21"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw20"
+                android:layout_alignStart="@+id/mw20"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw21"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day22"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw21"
+                android:layout_alignStart="@+id/mw21"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw22"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day23"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw22"
+                android:layout_alignStart="@+id/mw22"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw23"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day24"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw23"
+                android:layout_alignStart="@+id/mw23"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw24"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day25"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw24"
+                android:layout_alignStart="@+id/mw24"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw25"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day26"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw25"
+                android:layout_alignStart="@+id/mw25"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw26"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day27"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mw26"
+                android:layout_alignStart="@+id/mw26"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw27"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day28"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="#656862"
+                android:layout_below="@+id/mw27"
+                android:layout_alignStart="@+id/mw27"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mw28"
+                android:textSize="25dp"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

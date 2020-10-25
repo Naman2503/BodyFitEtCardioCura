@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:dividerHorizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:showDividers="middle"
+    android:orientation="vertical"
+    android:background="@drawable/data2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/by1"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:background="#8de6f4"
+                android:textSize="15dp"
+                android:text="1. Virabhadrasana"/>
+
+            <Button
+                android:id="@+id/v1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/by1"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by1"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by2"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="4dp"
+                android:background="#41d6ed"
+                android:textSize="15dp"
+                android:text="2. Bharadvajasana"/>
+
+            <Button
+                android:id="@+id/v2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by2"
+                android:layout_below="@+id/l1"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by2"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by3"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l2"
+                android:layout_marginTop="4dp"
+                android:background="#8de6f4"
+                android:textSize="15dp"
+                android:text="3. Upavistha Konasana"/>
+
+            <Button
+                android:id="@+id/v3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by3"
+                android:layout_below="@+id/l2"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by3"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by4"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l3"
+                android:layout_marginTop="4dp"
+                android:background="#41d6ed"
+                android:textSize="15dp"
+                android:text="4. Ardha Matsyendrasana"/>
+
+            <Button
+                android:id="@+id/v4"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by3"
+                android:layout_below="@+id/l3"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by4"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by5"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l4"
+                android:layout_marginTop="4dp"
+                android:background="#8de6f4"
+                android:textSize="15dp"
+                android:text="5. Ananda Balasana"/>
+
+            <Button
+                android:id="@+id/v5"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by5"
+                android:layout_below="@+id/l4"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by5"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by6"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l5"
+                android:layout_marginTop="4dp"
+                android:background="#41d6ed"
+                android:textSize="15dp"
+                android:text="6. Naukasana"/>
+
+            <Button
+                android:id="@+id/v6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by6"
+                android:layout_below="@+id/l5"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by6"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by7"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l6"
+                android:layout_marginTop="4dp"
+                android:background="#8de6f4"
+                android:textSize="15dp"
+                android:text="7. Rajakapotasana"/>
+
+            <Button
+                android:id="@+id/v7"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by7"
+                android:layout_below="@+id/l6"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by7"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by8"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l7"
+                android:layout_marginTop="4dp"
+                android:background="#41d6ed"
+                android:textSize="15dp"
+                android:text="8. Anantasana"/>
+
+            <Button
+                android:id="@+id/v8"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by8"
+                android:layout_below="@+id/l7"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by8"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by9"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l8"
+                android:layout_marginTop="4dp"
+                android:background="#8de6f4"
+                android:textSize="15dp"
+                android:text="9. Supta Baddha Konasana"/>
+
+            <Button
+                android:id="@+id/v9"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by9"
+                android:layout_below="@+id/l8"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/by9"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/by10"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/l9"
+                android:layout_marginTop="4dp"
+                android:background="#41d6ed"
+                android:textSize="15dp"
+                android:text="10. Bhujangasana"/>
+
+            <Button
+                android:id="@+id/v10"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/by10"
+                android:layout_below="@+id/l9"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_f1_fw12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.naman.bodyfitetcardiocura.F1FW12"
+    android:background="@drawable/data2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Jumping Jack"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr1"
+                android:layout_below="@+id/mt1"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x30"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video1"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video1"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Squats"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/l1"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr2"
+                android:layout_below="@+id/mt2"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x15"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video2"
+                android:layout_below="@+id/mt2"
+                android:layout_marginLeft="180dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video2"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Side-Lying Leg Lift"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l2"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mtr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left"
+                android:layout_marginLeft="35dp"
+                android:layout_below="@+id/mt3"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr3"
+                android:layout_below="@+id/mtr3"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 sec"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video3"
+                android:layout_below="@+id/mt3"
+                android:layout_marginLeft="180dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video3"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Side-Lying Leg Lift"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l3"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mtr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right"
+                android:layout_marginLeft="35dp"
+                android:layout_below="@+id/mt4"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr4"
+                android:layout_below="@+id/mtr4"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 sec"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video4"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video4"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Standing Bicycle"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l4"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mtr5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Punch"
+                android:layout_marginLeft="35dp"
+                android:layout_below="@+id/mt5"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr5"
+                android:layout_below="@+id/mtr5"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 sec"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video5"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video5"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Adductor Stretch In"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l5"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mtr6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standing"
+                android:layout_marginLeft="35dp"
+                android:layout_below="@+id/mt6"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr6"
+                android:layout_below="@+id/mtr6"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x16"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video6"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video6"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Swimmer And"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l6"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mtr7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Superman"
+                android:layout_marginLeft="35dp"
+                android:layout_below="@+id/mt7"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr7"
+                android:layout_below="@+id/mtr7"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x15"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video7"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video7"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Flutter Kicks"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l7"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr8"
+                android:layout_below="@+id/mt8"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 sec"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video8"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video8"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Wall Push-Ups"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l8"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr9"
+                android:layout_below="@+id/mt9"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x15"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video9"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/l9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/video9"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <TextView
+                android:id="@+id/mt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Plank"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/l9"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/mr10"
+                android:layout_below="@+id/mt10"
+                android:layout_marginLeft="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 sec"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/video10"
+                android:layout_marginLeft="180dp"
+                android:layout_below="@+id/mt10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_video_icon1"
+                android:layout_weight="1" />
+
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif1"
+                android:layout_toRightOf="@+id/video1"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jj1" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif2"
+                android:layout_below="@+id/l1"
+                android:layout_toRightOf="@+id/video2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f2"/>
+
+            <ImageView
+                android:id="@+id/gif3"
+                android:layout_below="@+id/l2"
+                android:layout_toRightOf="@+id/video3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f12"/>
+
+            <ImageView
+                android:id="@+id/gif4"
+                android:layout_below="@+id/l3"
+                android:layout_toRightOf="@+id/video4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f13"/>
+
+            <ImageView
+                android:id="@+id/gif5"
+                android:layout_below="@+id/l4"
+                android:layout_toRightOf="@+id/video5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f6"/>
+
+            <ImageView
+                android:id="@+id/gif6"
+                android:layout_below="@+id/l5"
+                android:layout_toRightOf="@+id/video6"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f8"/>
+
+            <ImageView
+                android:id="@+id/gif7"
+                android:layout_below="@+id/l6"
+                android:layout_toRightOf="@+id/video7"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f9"/>
+
+            <ImageView
+                android:id="@+id/gif8"
+                android:layout_below="@+id/l7"
+                android:layout_toRightOf="@+id/video8"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f10"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif9"
+                android:layout_below="@+id/l8"
+                android:layout_toRightOf="@+id/video9"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f3"/>
+
+            <ImageView
+                android:id="@+id/gif10"
+                android:layout_below="@+id/l9"
+                android:layout_toRightOf="@+id/video10"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f5"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

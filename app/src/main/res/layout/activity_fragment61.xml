@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naman.bodyfitetcardiocura.Fragment61"
+    android:background="@drawable/mf">
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/fb1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/normaldiet"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="NORMAL DIET"
+            android:textSize="30dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame1">
+
+        <ImageButton
+            android:id="@+id/fb2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/yoga"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="DAILY YOGA"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="102dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame2">
+
+        <ImageButton
+            android:id="@+id/fb3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/workout"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="WORKOUT"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="115dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

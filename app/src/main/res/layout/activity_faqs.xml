@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:dividerHorizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:showDividers="middle"
+    android:orientation="vertical"
+    android:background="@drawable/data2">
+
+    <TextView
+        android:id="@+id/fq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_below="@+id/fq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fq1"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:background="#0101"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:text="1. Why should i use a personal trainer?"/>
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq1"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq2"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="2. WHEN DO I NEED A PERSONAL TRAINER?"/>
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq2"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq3"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l2"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="3. WHERE SHOULD I TRAIN?"/>
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq3"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq4"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/l3"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="4. WILL MY TRAINER PUT ME ON A DIET? STOP ME SMOKING/MAKE ME STOP DRINKING?"/>
+
+            <TextView
+                android:id="@+id/l4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq4"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq5"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l4"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="5. IS NUTRITION PART OF THESE PROGRAMS?"/>
+
+            <TextView
+                android:id="@+id/l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq5"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq6"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l5"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="6. WHAT'S THE TRAINING LIKE?"/>
+
+            <TextView
+                android:id="@+id/l6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq6"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq7"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/l6"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="7. IS THE TRAINING TOUGH?"/>
+
+            <TextView
+                android:id="@+id/l7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq7"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq8"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/l7"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="8. HOW MANY CALORIES DO I BURN DURING A TYPICAL SESSION?"/>
+
+            <TextView
+                android:id="@+id/l8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq8"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq9"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/l8"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="9. WILL TRAINING AT RITUAL MAKE ME BULKY?"/>
+
+            <TextView
+                android:id="@+id/l9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fq9"
+                android:text="--------------------------------------------------------------------------------"/>
+
+
+
+            <Button
+                android:id="@+id/fq10"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/l9"
+                android:layout_marginTop="4dp"
+                android:background="#0101"
+                android:textSize="15dp"
+                android:text="10. WHY DON'T YOU USE FANCY MOVEMENTS LIKE MUSCLE-UPS OR OLYMPIC LIFTS?"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

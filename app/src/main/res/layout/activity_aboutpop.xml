@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutpop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.naman.bodyfitetcardiocura.Aboutpop">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="35dp"/>
+
+    <ScrollView
+        android:id="@+id/as1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ts1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:id="@+id/tm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team Members:"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_below="@+id/ts1"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/tm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Naman Gupta"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/tm"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/tm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Kumar Saurav"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/tm1"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Nitish Sood"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/tm2"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Deepak Aravindan"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/tm3"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/tcb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tm4"
+                android:layout_centerHorizontal="true"
+                android:text="Contact Us"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

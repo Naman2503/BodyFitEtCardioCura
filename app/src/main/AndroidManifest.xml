@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.naman.bodyfitetcardiocura">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Slide2" />
+        <activity android:name=".Login3" />
+        <activity android:name=".Registration4" />
+        <activity android:name=".BMIC5" />
+        <activity
+            android:name=".Exo6"
+            android:label="@string/title_activity_exo6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment61" />
+        <activity android:name=".Fragment62" />
+        <activity
+            android:name=".MaleND"
+            android:parentActivityName=".Exo6" />
+        <activity
+            android:name=".MaleDY"
+            android:parentActivityName=".Exo6" />
+        <activity
+            android:name=".MaleW"
+            android:parentActivityName=".Exo6" />
+        <activity
+            android:name=".MND1"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND2"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND3"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND4"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND5"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND6"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MND7"
+            android:parentActivityName=".MaleND" />
+        <activity
+            android:name=".MDY1"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY2"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY3"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY4"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY5"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY6"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MDY7"
+            android:parentActivityName=".MaleDY" />
+        <activity
+            android:name=".MW1314"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW12"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW34"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW56"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW78"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW910"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW1112"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW1516"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW1718"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW1920"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW2122"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW2324"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW2526"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".MW2728"
+            android:parentActivityName=".MaleW" />
+        <activity
+            android:name=".FemaleND"
+            android:parentActivityName=".Exo6" />
+        <activity
+            android:name=".FemaleW"
+            android:parentActivityName=".Exo6" />
+        <activity
+            android:name=".FND1"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND2"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND3"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND4"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND5"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND6"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FND7"
+            android:parentActivityName=".FemaleND" />
+        <activity
+            android:name=".FW12"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW34"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW56"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW78"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW910"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW1112"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW1314"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW1516"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW1718"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW1920"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW2122"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW2324"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW2526"
+            android:parentActivityName=".FemaleW" />
+        <activity
+            android:name=".FW2728"
+            android:parentActivityName=".FemaleW" />
+        <activity android:name=".F1MW12" />
+        <activity android:name=".F2MW12" />
+        <activity android:name=".F1MW34" />
+        <activity android:name=".F1MW56" />
+        <activity android:name=".F1MW78" />
+        <activity android:name=".F1MW910" />
+        <activity android:name=".F1MW1112" />
+        <activity android:name=".F1MW1314" />
+        <activity android:name=".F1MW1516" />
+        <activity android:name=".F1MW1718" />
+        <activity android:name=".F1MW1920" />
+        <activity android:name=".F1MW2122" />
+        <activity android:name=".F1MW2324" />
+        <activity android:name=".F1MW2526" />
+        <activity android:name=".F1MW2728" />
+        <activity android:name=".F2MW34" />
+        <activity android:name=".F2MW56" />
+        <activity android:name=".F2MW78" />
+        <activity android:name=".F2MW910" />
+        <activity android:name=".F2MW1112" />
+        <activity android:name=".F2MW1314" />
+        <activity android:name=".F2MW1516" />
+        <activity android:name=".F2MW1718" />
+        <activity android:name=".F2MW1920" />
+        <activity android:name=".F2MW2122" />
+        <activity android:name=".F2MW2324" />
+        <activity android:name=".F2MW2526" />
+        <activity android:name=".F2MW2728" />
+        <activity android:name=".F1FW12" />
+        <activity android:name=".F1FW34" />
+        <activity android:name=".F1FW56" />
+        <activity android:name=".F1FW78" />
+        <activity android:name=".F1FW910" />
+        <activity android:name=".F1FW1112" />
+        <activity android:name=".F1FW1314" />
+        <activity android:name=".F1FW1516" />
+        <activity android:name=".F1FW1718" />
+        <activity android:name=".F1FW1920" />
+        <activity android:name=".F1FW2122" />
+        <activity android:name=".F1FW2324" />
+        <activity android:name=".F1FW2526" />
+        <activity android:name=".F1FW2728" />
+        <activity android:name=".F2FW12" />
+        <activity android:name=".F2FW34" />
+        <activity android:name=".F2FW56" />
+        <activity android:name=".F2FW78" />
+        <activity android:name=".F2FW910" />
+        <activity android:name=".F2FW1112" />
+        <activity android:name=".F2FW1314" />
+        <activity android:name=".F2FW1516" />
+        <activity android:name=".F2FW1718" />
+        <activity android:name=".F2FW1920" />
+        <activity android:name=".F2FW2122" />
+        <activity android:name=".F2FW2324" />
+        <activity android:name=".F2FW2526" />
+        <activity android:name=".F2FW2728" />
+        <activity android:name=".HIF1" />
+        <activity android:name=".HIF2" />
+        <activity
+            android:name=".HIMF"
+            android:label="@string/title_activity_himf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIMND"
+            android:parentActivityName=".HIMF" />
+        <activity
+            android:name=".HIFND"
+            android:parentActivityName=".HIMF" />
+        <activity
+            android:name=".HIMND1"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND2"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND3"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND4"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND5"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND6"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".HIMND7"
+            android:parentActivityName=".HIMND" />
+        <activity
+            android:name=".YPopD1"
+            android:theme="@style/AppTheme.CustomTheme" />
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".YPopD2"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD3"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD4"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD5"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD6"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD7"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD8"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD9"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD10"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD11"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD12"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD13"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD14"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD15"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD16"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD17"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD18"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD19"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".YPopD20"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".BMIpop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".logoutpop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".logouthpop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Aboutpop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Contactpop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".FAQs"
+            android:parentActivityName=".Exo6"/>
+        <activity android:name=".FAQpop1"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop2"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop3"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop4"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop5"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop6"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop7"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop8"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop9"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".FAQpop10"
+            android:theme="@style/AppTheme.CustomTheme"/>
+    </application>
+
+</manifest>

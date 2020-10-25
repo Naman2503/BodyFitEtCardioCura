@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_male_nd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.naman.bodyfitetcardiocura.MaleND"
+    android:background="@drawable/yogad">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mdy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAILY YOGA"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="#000000" />
+
+            <Button
+                android:text="Day1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="57dp"
+                android:layout_below="@+id/mdy"
+                android:id="@+id/mdy1"
+                android:textSize="25dp"
+                android:background="#9ca1a1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Day2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mdy2"
+                android:textSize="25dp"
+                android:background="#656862"
+                android:layout_below="@+id/mdy1"
+                android:layout_alignStart="@+id/mdy1"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/mdy3"
+                android:textSize="25dp"
+                android:background="#9ca1a1"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mdy2"
+                android:layout_alignStart="@+id/mdy2"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mdy4"
+                android:textSize="25dp"
+                android:background="#656862"
+                android:layout_below="@+id/mdy3"
+                android:layout_alignStart="@+id/mdy3"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mdy5"
+                android:textSize="25dp"
+                android:background="#9ca1a1"
+                android:layout_below="@+id/mdy4"
+                android:layout_alignStart="@+id/mdy4"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/mdy6"
+                android:textSize="25dp"
+                android:background="#656862"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mdy5"
+                android:layout_alignStart="@+id/mdy5"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:text="Day7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/mdy6"
+                android:background="#9ca1a1"
+                android:textSize="25dp"
+                android:layout_alignStart="@+id/mdy6"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mdy7"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
